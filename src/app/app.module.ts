@@ -9,13 +9,15 @@ import {Navigation} from "./components/navigation/navigation.component";
 import {RouterModule} from "@angular/router";
 import {appRoutes} from "./app.routes";
 import {HomeComponent} from "./pages/home/home.component";
+import { NewPage2Component } from './pages/new-page2/new-page2.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     Navigation,
     Topnavbar,
-    HomeComponent
+    HomeComponent,
+    NewPage2Component
   ],
   imports: [
     BrowserModule,
